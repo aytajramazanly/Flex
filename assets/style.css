@@ -1,0 +1,165 @@
+/* Header navbar style */  
+#navbar{
+    height: 50px;
+}
+#navbar .nav{
+    justify-content: center;
+    align-items: center;
+}
+#navbar .col-6 ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+#navbar .col-6 ul li a {
+    font-size: 17px;
+    font-weight: 500;
+}
+#navbar .col-6 a{
+    color: black;
+    padding: 15px 0;
+    display: block;
+}
+
+#navbar .col-6 a p{
+    font-weight: 400;
+    font-size: 20px;
+}
+#navbar .col-6 a p span{
+    font-weight: 800;
+}
+
+/* Main slider style */
+
+.slider-back{
+    height: 550px;
+    background-image: url(http://coderspoint.net/html/showkes/assets/img/bg/intro-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+#slider .title{
+    gap: 100px;
+    margin-top: 10%;
+}
+
+#slider .title::after{
+    display: none;
+}
+#slider .row .title.slider h2{
+    font-weight: 400;
+    color: #fff;
+}
+
+#slider .row .title p{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+#slider .row .title.slider .link .button{
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    font-weight: 600;
+    font-size: 15px;
+}
+#slider .row .title.slider .link .button:hover{
+    background-color: #333;
+    color: #fff;
+    transition: 0.5s;
+}
+
+/* About me section style */
+
+#about-me .title{
+    position: relative;
+    width: 600px;
+    margin: 0 auto;
+}
+
+#about-me .description{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: 20px;
+}
+#about-me .description h3{
+    font-weight: 400;
+    font-size: 21px;
+    color: #333;
+}
+#about-me .description h3 span{
+    font-weight: 800;
+}
+#about-me .description p{
+    color: #777;
+    font-size: 18px;
+}
+
+#about-me .description .button{
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+}
+#about-me .description .button:hover{
+    background-color: #777;
+    transition: 0.5s;
+}
+
+/* What I Do section style */
+
+#what-i-do .row .whatido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    width: 300px;
+    height: 170px;
+}
+
+#what-i-do .row .whatido .icon i{
+    font-size: 25px;
+    color: rgb(156, 156, 156);
+}
+
+#what-i-do .diff:last-child:after{
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #777;
+}
+
+/* My Works section style */
+
+#my-works .work-filters{
+    margin-left: 33%;
+}
+
+#my-works .work-filters ul{
+    gap: 82px;
+}
+
+#my-works img{
+    width: 100%;
+    transition: 0.8s ease-in-out;
+}
+
+#my-works .works{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    width: 360px !important;
+    height: 260px;
+}
+
