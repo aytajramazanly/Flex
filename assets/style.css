@@ -1,7 +1,13 @@
 /* Header navbar style */  
 #navbar{
     height: 50px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: #fff;
 }
+
 #navbar .nav{
     justify-content: center;
     align-items: center;
@@ -37,6 +43,7 @@
     background-size: cover;
     background-position: center;
     position: relative;
+    background-attachment: fixed;
 }
 
 .title{
@@ -47,7 +54,7 @@
 }
 #slider .title{
     gap: 100px;
-    margin-top: 10%;
+    padding-top: 145px;
 }
 
 #slider .title::after{

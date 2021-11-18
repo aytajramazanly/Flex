@@ -59,8 +59,12 @@
   }
   a{
       text-decoration: none;
+      color: #333;
   }
   
+  p{
+      color: #333;
+  }
   .title{
       position: relative;
   }
